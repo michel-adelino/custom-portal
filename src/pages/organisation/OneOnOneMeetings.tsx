@@ -1,7 +1,6 @@
 import ModulePage from '../ModulePage';
 import { format } from 'date-fns';
 import { Calendar, User, Target, MessageSquare, TrendingUp, Award } from 'lucide-react';
-import { useAuth } from '../../context/AuthContext';
 
 const OneOnOneMeetings = () => {
   

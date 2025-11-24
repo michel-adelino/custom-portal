@@ -1,10 +1,7 @@
 import ModulePage from '../ModulePage';
 import { Award, Calendar, User, CheckCircle2, Clock, FileText, Star, Target } from 'lucide-react';
 import { format } from 'date-fns';
-import { useAuth } from '../../context/AuthContext';
-
 const Reviews = () => {
-  const { user } = useAuth();
 
   const reviews = [
     {
