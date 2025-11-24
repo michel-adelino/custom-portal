@@ -142,13 +142,13 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-72 bg-white border-r border-slate-200/60 h-screen fixed left-0 top-0 overflow-y-auto">
-      <div className="p-6 border-b border-slate-200/60">
-        <h1 className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-primary-700 bg-clip-text text-transparent">
+    <div className="w-72 bg-slate-900 border-r border-slate-800 h-screen fixed left-0 top-0 overflow-y-auto">
+      <div className="p-6 border-b border-slate-800">
+        <h1 className="text-2xl font-bold bg-gradient-to-r from-primary-400 to-primary-300 bg-clip-text text-transparent">
           Staff Portal
         </h1>
         {user && (
-          <p className="text-sm text-slate-500 mt-2 font-medium">{user.name}</p>
+          <p className="text-sm text-slate-400 mt-2 font-medium">{user.name}</p>
         )}
       </div>
       
@@ -171,12 +171,12 @@ const Sidebar = () => {
                 onClick={() => toggleExpanded(item.id)}
                 className={`sidebar-link w-full justify-between ${hasActiveChild ? 'active' : ''}`}
               >
-                <div className="flex items-center gap-3">
-                  <span className="text-slate-500">{item.icon}</span>
-                  <span>{item.label}</span>
+                <div className="flex items-center gap-3 text-left">
+                  <span className="text-slate-400">{item.icon}</span>
+                  <span className="text-left">{item.label}</span>
                 </div>
                 {item.children && (
-                  <span className="text-slate-400">
+                  <span className="text-slate-500">
                     {isExpanded ? (
                       <ChevronDown className="w-4 h-4" />
                     ) : (
@@ -187,13 +187,13 @@ const Sidebar = () => {
               </button>
               
               {item.children && isExpanded && (
-                <div className="ml-4 mt-2 space-y-1 border-l-2 border-slate-100 pl-4">
+                <div className="ml-4 mt-2 space-y-1 border-l-2 border-slate-700 pl-4">
                   {item.children.map((child) => (
                     <Link
                       key={child.id}
                       to={child.path || '#'}
-                      className={`block px-3 py-2 text-sm text-slate-600 hover:bg-slate-50 hover:text-primary-600 rounded-lg transition-all duration-200 ${
-                        isActive(child.path) ? 'bg-primary-50 text-primary-600 font-semibold' : ''
+                      className={`block px-3 py-2 text-sm text-slate-400 hover:bg-slate-800 hover:text-primary-400 rounded-lg transition-all duration-200 ${
+                        isActive(child.path) ? 'bg-primary-600/20 text-primary-400 font-semibold border-l-2 border-primary-400' : ''
                       }`}
                     >
                       {child.label}
