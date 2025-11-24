@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { FileText, User, Calendar, Search, Tag, Filter, Plus } from 'lucide-react';
+import { FileText, User, Calendar, Search, Plus } from 'lucide-react';
 import { format } from 'date-fns';
 import { useState } from 'react';
 

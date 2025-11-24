@@ -1,7 +1,7 @@
 import ModulePage from '../ModulePage';
 import { useCallLog } from '../../context/CallLogContext';
 import { format } from 'date-fns';
-import { Phone, MessageSquare, Filter, Search, User, Clock } from 'lucide-react';
+import { Phone, MessageSquare, Search, User, Clock } from 'lucide-react';
 import { useState } from 'react';
 
 const CustomerCommunications = () => {

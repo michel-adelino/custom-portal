@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Calendar, FileText, Image, Video, Megaphone, CheckCircle2, Clock } from 'lucide-react';
+import { Calendar, FileText, Image, Video, Megaphone, CheckCircle2 } from 'lucide-react';
 import { format } from 'date-fns';
 
 const ContentCalendar = () => {

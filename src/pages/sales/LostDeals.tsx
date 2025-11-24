@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { XCircle, DollarSign, Calendar, User, AlertCircle, FileText } from 'lucide-react';
+import { XCircle, DollarSign, Calendar, User, AlertCircle } from 'lucide-react';
 import { format } from 'date-fns';
 
 const LostDeals = () => {

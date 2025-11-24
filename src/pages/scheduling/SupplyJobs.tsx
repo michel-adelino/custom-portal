@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Package, Calendar, Truck, CheckCircle2, Clock, Building2, MapPin } from 'lucide-react';
+import { Package, Calendar, Truck, CheckCircle2, Building2, MapPin } from 'lucide-react';
 import { format } from 'date-fns';
 import { useState } from 'react';
 

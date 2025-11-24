@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { GitBranch, Search, Filter, Eye, Download, Share2 } from 'lucide-react';
+import { GitBranch, Filter, Eye, Download, Share2 } from 'lucide-react';
 import { useState } from 'react';
 
 const Flowcharts = () => {

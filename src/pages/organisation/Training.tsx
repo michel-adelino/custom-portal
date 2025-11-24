@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { BookOpen, Clock, Award, Users, TrendingUp, CheckCircle2, PlayCircle, Calendar, Circle, Star, Download, FileText, Video, ArrowRight } from 'lucide-react';
+import { BookOpen, Clock, Award, Users, CheckCircle2, PlayCircle, Circle, Star, Download, FileText, Video, ArrowRight } from 'lucide-react';
 import { useState } from 'react';
 
 const Training = () => {

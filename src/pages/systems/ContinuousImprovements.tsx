@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { TrendingUp, Lightbulb, CheckCircle2, Clock, User, Calendar, Target, Award } from 'lucide-react';
+import { TrendingUp, Lightbulb, CheckCircle2, Clock, User, Calendar, Target } from 'lucide-react';
 import { useState } from 'react';
 import { format } from 'date-fns';
 

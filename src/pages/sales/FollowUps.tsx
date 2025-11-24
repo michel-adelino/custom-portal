@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Calendar, Phone, Mail, Clock, CheckCircle2, AlertCircle, User, Building2 } from 'lucide-react';
+import { Calendar, Phone, Mail, Clock, CheckCircle2, User, Building2 } from 'lucide-react';
 import { format } from 'date-fns';
 import { useState } from 'react';
 

@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { TrendingUp, DollarSign, Calendar, User, ArrowRight } from 'lucide-react';
+import { TrendingUp, DollarSign, Calendar } from 'lucide-react';
 
 const Pipeline = () => {
   const stages = [

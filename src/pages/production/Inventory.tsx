@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Package, Search, Filter, TrendingUp, TrendingDown, AlertTriangle, Plus } from 'lucide-react';
+import { Package, Search, TrendingUp, TrendingDown, Plus } from 'lucide-react';
 import { useState } from 'react';
 
 const Inventory = () => {

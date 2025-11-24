@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { FileText, BookOpen, Search, Eye, Calendar, User, Tag, TrendingUp } from 'lucide-react';
+import { FileText, BookOpen, Search, Eye, Calendar, User, TrendingUp } from 'lucide-react';
 import { useState } from 'react';
 
 const KnowledgeCentre = () => {

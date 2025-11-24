@@ -4,7 +4,6 @@ import { Calendar, User, Target, MessageSquare, TrendingUp, Award } from 'lucide
 import { useAuth } from '../../context/AuthContext';
 
 const OneOnOneMeetings = () => {
-  const { user } = useAuth();
   
   const meetings = [
     { 

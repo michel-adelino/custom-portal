@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { FileText, DollarSign, Calendar, User, Clock, Send, Download } from 'lucide-react';
+import { FileText, Calendar, Clock, Send, Download } from 'lucide-react';
 import { format } from 'date-fns';
 
 const Quotes = () => {

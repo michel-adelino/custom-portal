@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Share2, TrendingUp, Users, Heart, MessageCircle, Eye, Calendar, Plus } from 'lucide-react';
+import { Share2, TrendingUp, Heart, MessageCircle, Eye, Calendar, Plus } from 'lucide-react';
 import { format } from 'date-fns';
 import { useState } from 'react';
 

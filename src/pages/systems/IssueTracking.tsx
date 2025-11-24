@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { AlertCircle, Clock, CheckCircle2, User, Calendar, Tag, Filter } from 'lucide-react';
+import { AlertCircle, Clock, CheckCircle2, User, Calendar, Filter } from 'lucide-react';
 import { useState } from 'react';
 import { format } from 'date-fns';
 

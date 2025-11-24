@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { TrendingUp, Eye, Heart, MessageCircle, Share2, Users, BarChart3, Calendar } from 'lucide-react';
+import { TrendingUp, Eye, Heart, MessageCircle, Share2, BarChart3 } from 'lucide-react';
 
 const Engagement = () => {
   const metrics = [

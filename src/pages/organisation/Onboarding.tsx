@@ -1,11 +1,20 @@
 import ModulePage from '../ModulePage';
 import { useState } from 'react';
-import { CheckCircle2, Circle, FileText, Users, Laptop, BookOpen, Calendar, Award, Clock } from 'lucide-react';
+import { CheckCircle2, Circle, FileText, Users, Laptop, BookOpen, Award, Clock } from 'lucide-react';
+
+interface OnboardingStep {
+  id: number;
+  title: string;
+  completed: boolean;
+  description: string;
+  resources: string[];
+  duration?: string;
+}
 
 const Onboarding = () => {
   const [activePhase, setActivePhase] = useState<string>('pre-start');
 
-  const phases = {
+  const phases: Record<string, { title: string; description: string; steps: OnboardingStep[] }> = {
     'pre-start': {
       title: 'Pre-Start (Week -1)',
       description: 'Preparation before the first day',

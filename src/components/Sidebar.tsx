@@ -9,9 +9,9 @@ import { useAuth } from '../context/AuthContext';
 interface NavItem {
   id: string;
   label: string;
-  icon: React.ReactNode;
+  icon?: React.ReactNode;
   path?: string;
-  children?: NavItem[];
+  children?: Omit<NavItem, 'icon' | 'children'>[];
 }
 
 const navigation: NavItem[] = [

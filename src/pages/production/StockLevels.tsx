@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Package, AlertTriangle, CheckCircle2, TrendingUp, TrendingDown } from 'lucide-react';
+import { Package, AlertTriangle } from 'lucide-react';
 
 const StockLevels = () => {
   const items = [

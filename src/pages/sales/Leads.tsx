@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Building2, Phone, Mail, Calendar, User, TrendingUp, DollarSign, Filter } from 'lucide-react';
+import { Building2, Phone, Mail, Calendar, User, DollarSign, Filter } from 'lucide-react';
 import { format } from 'date-fns';
 import { useState } from 'react';
 

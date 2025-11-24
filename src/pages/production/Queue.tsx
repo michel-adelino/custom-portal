@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Factory, Clock, User, Calendar, AlertCircle, CheckCircle2, Package } from 'lucide-react';
+import { Factory, User, Calendar, Package } from 'lucide-react';
 import { format } from 'date-fns';
 
 const Queue = () => {

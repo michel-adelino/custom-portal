@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Target, TrendingUp, TrendingDown, Award, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { Target, TrendingUp, TrendingDown, AlertCircle, CheckCircle2 } from 'lucide-react';
 
 const KPIs = () => {
   const kpis = [

@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Calendar, DollarSign, AlertCircle, Clock, Building2, CheckCircle2 } from 'lucide-react';
+import { Calendar, DollarSign, AlertCircle, Clock, Building2 } from 'lucide-react';
 import { format } from 'date-fns';
 
 const UpcomingPayments = () => {

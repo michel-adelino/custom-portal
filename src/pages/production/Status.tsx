@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Factory, CheckCircle2, Clock, AlertCircle, TrendingUp, Package, Target } from 'lucide-react';
+import { Factory, Clock, AlertCircle, TrendingUp, Package, Target } from 'lucide-react';
 
 const Status = () => {
   const productionLines = [

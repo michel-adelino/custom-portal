@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Target, TrendingUp, CheckCircle2, Circle, Calendar, BookOpen, Award, Users } from 'lucide-react';
+import { Target, TrendingUp, CheckCircle2, Circle, Calendar, Award } from 'lucide-react';
 import { format } from 'date-fns';
 
 const GrowthPlans = () => {
@@ -63,7 +63,7 @@ const GrowthPlans = () => {
   const completedPlans = growthPlans.filter(p => p.status === 'completed');
   const totalGoals = growthPlans.reduce((sum, p) => sum + p.goals.length, 0);
   const completedGoals = growthPlans.reduce((sum, p) => 
-    sum + p.goals.filter(g => g.status === 'completed').length, 0
+    sum + p.goals.filter(g => g.status === 'completed').length
   , 0);
 
   return (

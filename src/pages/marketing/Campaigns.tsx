@@ -1,5 +1,5 @@
 import ModulePage from '../ModulePage';
-import { Megaphone, Calendar, Target, TrendingUp, DollarSign, Users, CheckCircle2, Clock } from 'lucide-react';
+import { Megaphone, Calendar, Users } from 'lucide-react';
 import { format } from 'date-fns';
 import { useState } from 'react';
 

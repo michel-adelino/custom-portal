@@ -1,6 +1,5 @@
 import ModulePage from '../ModulePage';
 import { CheckCircle2, Circle, Clock, Calendar } from 'lucide-react';
-import { format } from 'date-fns';
 
 const Roadmap = () => {
   const quarters = [

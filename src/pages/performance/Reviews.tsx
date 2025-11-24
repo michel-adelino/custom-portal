@@ -1,6 +1,7 @@
 import ModulePage from '../ModulePage';
 import { Award, Calendar, User, CheckCircle2, Clock, FileText, Star, Target } from 'lucide-react';
 import { format } from 'date-fns';
+import { useAuth } from '../../context/AuthContext';
 
 const Reviews = () => {
   const { user } = useAuth();
@@ -194,7 +195,7 @@ const Reviews = () => {
                       <div>
                         <div className="text-sm font-semibold text-slate-900 mb-2">Category Ratings:</div>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                          {Object.entries(review.categories).map(([category, rating]) => (
+                          {review.categories && Object.entries(review.categories).map(([category, rating]) => (
                             <div key={category} className="p-3 bg-slate-50 rounded-lg">
                               <div className="text-xs text-slate-600 mb-1">{category}</div>
                               <div className="flex items-center gap-1">
@@ -210,7 +211,7 @@ const Reviews = () => {
                       <div>
                         <div className="text-sm font-semibold text-emerald-700 mb-2">Strengths:</div>
                         <ul className="space-y-1">
-                          {review.strengths.map((strength, idx) => (
+                          {review.strengths && review.strengths.map((strength, idx) => (
                             <li key={idx} className="flex items-start gap-2 text-sm text-slate-700">
                               <CheckCircle2 className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
                               <span>{strength}</span>
@@ -223,7 +224,7 @@ const Reviews = () => {
                       <div>
                         <div className="text-sm font-semibold text-yellow-700 mb-2">Areas for Improvement:</div>
                         <ul className="space-y-1">
-                          {review.areasForImprovement.map((area, idx) => (
+                          {review.areasForImprovement && review.areasForImprovement.map((area, idx) => (
                             <li key={idx} className="flex items-start gap-2 text-sm text-slate-700">
                               <span className="text-yellow-600 mt-0.5">•</span>
                               <span>{area}</span>
@@ -236,7 +237,7 @@ const Reviews = () => {
                       <div>
                         <div className="text-sm font-semibold text-primary-700 mb-2">Goals Set:</div>
                         <ul className="space-y-1">
-                          {review.goals.map((goal, idx) => (
+                          {review.goals && review.goals.map((goal, idx) => (
                             <li key={idx} className="flex items-start gap-2 text-sm text-slate-700">
                               <Target className="w-4 h-4 text-primary-600 mt-0.5 flex-shrink-0" />
                               <span>{goal}</span>
